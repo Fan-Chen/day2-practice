@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0:
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#github{
+    position: absolute;
+    left: 50px;
+    bottom: 60px;
+    height: 34px;
+    text-align: center;
+}
+
+#github>img {
+    display: inline-block;
+    float: left;
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+}
+
+#github>a {
+    display: inline-block;
+    float: left;
+    line-height: 34px;
+    color: #fff;
+}
+
+.project>a {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+hr {
+    width: 200px;
+    height: 1px;
+    border: 0;
+    background: #018a75
+}
+
+ul li {
+    list-style: none;
+    color: #fff;
+}
+
+aside h1 {
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+aside h3,li {
+    text-align: center;
+}
+
+main h1 {
+    color: #898a8a
+}
+
+main h2 {
+    color: #22c3aa;
+}
+
+p {
+    word-wrap: break-word;
+    margin: 0;
+}
+
+aside p {
+    color: #027261;
+    font-size: 12px;
+    text-align: center;
+}
+
+.introduce {
+    margin: 15px;
+    text-align: left;
+}
+
+aside {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 800px;
+    background: #22c3aa;
+}
+
+main {
+    display: inline-block;
+    padding: 0 50px;
+    width: 40vw;
+    height: 800px;
+    background: rgb(248, 248, 248)
+}
+
+#img-1 {
+    position: center;
+    padding: 20px 75px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
